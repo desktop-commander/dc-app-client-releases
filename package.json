@@ -1,0 +1,14 @@
+{
+    "name": "desktop-commander-releases",
+    "version": "0.3.1",
+    "private": true,
+    "author": "Dmitry Sergeev",
+    "scripts": {
+        "preversion": "echo Preparing for version bump...",
+        "postversion": "git push && git push --tags"
+    },
+    "packageManager": "pnpm@10.14.0",
+    "engines": {
+        "node": "^18.0.0 || ^20.0.0 || ^22.0.0"
+    }
+}
